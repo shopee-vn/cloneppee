@@ -31,7 +31,6 @@ function ProductDetail() {
 
     const [thumbsSwiper, setThumbsSwiper] = useState(null);
     const typesPhone = ["Titan - Đen", "Titan - Trắng", "Titan - Sa Mạc"];
-    const versionPhone = ["512", "256", "128"];
 
     const originalPrice = Number(product.price.replace(/\./g, ""));
     const [selectedVersion, setSelectedVersion] = useState("512");
@@ -48,7 +47,9 @@ function ProductDetail() {
     ];
 
     useEffect(() => {
-        if (selectedVersion === "512") {
+        if (selectedVersion === "1T") {
+            setFinalPrice(Math.round(originalPrice * 1.16));
+        } else if (selectedVersion === "512") {
             setFinalPrice(originalPrice);
         } else if (selectedVersion === "256") {
             setFinalPrice(Math.round(originalPrice * 0.81));
@@ -58,7 +59,7 @@ function ProductDetail() {
     }, [selectedVersion, originalPrice]);
 
     function formatCurrency(number) {
-        return number.toLocaleString("vi-VN"); // Format thành "40.999.000"
+        return number.toLocaleString("vi-VN");
     }
 
     const handleBuyNow = () => {
@@ -329,7 +330,7 @@ function ProductDetail() {
                         <p className="text-[14px] text-[#757575]">Dung Lượng</p>
                         <div className="pl-[2px]">
                             <div className="flex flex-wrap gap-[8px]">
-                                {versionPhone.map((item) => (
+                                {product?.version?.map((item) => (
                                     <button
                                         key={item}
                                         onClick={() => setSelectedVersion(item)}
@@ -411,7 +412,10 @@ function ProductDetail() {
                             </div>
                             <div>Thêm Vào Giỏ Hàng</div>
                         </button>
-                        <button onClick={handleBuyNow} className="rounded bg-[#D0011B] px-[64px] py-[12px] text-white hover:bg-red-600">
+                        <button
+                            onClick={handleBuyNow}
+                            className="rounded bg-[#D0011B] px-[64px] py-[12px] text-white hover:bg-red-600"
+                        >
                             Mua Ngay
                         </button>
                     </div>

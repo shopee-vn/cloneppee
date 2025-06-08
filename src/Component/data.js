@@ -11,6 +11,7 @@ const products = [
         brand: "Apple",
         location: "Việt nam",
         quantity: "89",
+        version: ["1T", "512", "256", "128"],
         author: "Hoang Ha Mobile",
         color: ["Titan - Đen", "Titan - Trắng", "Titan - Sa Mạc"],
         authorImage:
@@ -50,6 +51,7 @@ const products = [
         brand: "Apple",
         location: "Việt nam",
         quantity: "220",
+        version: ["1T", "512", "256", "128"],
         author: "Hoang Soi Store",
         color: ["Titan - Đen", "Titan - Trắng", "Titan - Sa Mạc"],
         authorImage:
@@ -88,6 +90,7 @@ const products = [
         brand: "Apple",
         location: "Việt nam",
         quantity: "260",
+        version: ["1T", "512", "256", "128"],
         author: "Tran Doan Store",
         color: ["Titan - Đen", "Titan - Trắng", "Titan - Sa Mạc"],
         authorImage:
@@ -126,6 +129,7 @@ const products = [
         brand: "Apple",
         location: "Việt nam",
         quantity: "198",
+        version: ["1T", "512", "256", "128"],
         author: "One Mobile",
         color: ["Titan - Đen", "Titan - Trắng", "Titan - Sa Mạc"],
         authorImage:
@@ -164,6 +168,7 @@ const products = [
         brand: "Apple",
         location: "Việt nam",
         quantity: "106",
+        version: ["512", "256", "128"],
         author: "Mobile City",
         color: ["Titan - Đen", "Titan - Trắng", "Titan - Sa Mạc"],
         authorImage:
@@ -202,6 +207,7 @@ const products = [
         brand: "Apple",
         location: "Việt nam",
         quantity: "118",
+        version: ["512", "256", "128"],
         author: "Ha Com",
         color: ["Titan - Đen", "Titan - Trắng", "Titan - Sa Mạc"],
         authorImage:
@@ -240,6 +246,7 @@ const products = [
         brand: "Apple",
         location: "Việt nam",
         quantity: "198",
+        version: ["1T", "512", "256", "128"],
         author: "The Gioi Di Dong",
         color: ["Titan - Đen", "Titan - Trắng", "Titan - Sa Mạc"],
         authorImage:
@@ -278,6 +285,7 @@ const products = [
         brand: "Apple",
         location: "Việt nam",
         quantity: "89",
+        version: ["512", "256", "128"],
         author: "Ha My Store",
         color: ["Gold", "Trắng", "Đen nhám"],
         authorImage:
@@ -316,6 +324,7 @@ const products = [
         brand: "Apple",
         location: "Việt nam",
         quantity: "198",
+        version: ["512", "256", "128"],
         author: "The Gioi Di Dong",
         color: ["Gold", "Trắng", "Đen nhám"],
         authorImage:
@@ -354,6 +363,7 @@ const products = [
         brand: "Apple",
         location: "Việt nam",
         quantity: "130",
+        version: ["512", "256", "128"],
         author: "Quanh Dev Store",
         color: ["Gold", "Trắng", "Đen nhám"],
         authorImage:
@@ -392,6 +402,7 @@ const products = [
         brand: "Apple",
         location: "Việt nam",
         quantity: "118",
+        version: ["512", "256", "128"],
         author: "The Gioi Di Dong",
         color: ["Gold", "Trắng", "Đen nhám"],
         authorImage:
@@ -430,6 +441,7 @@ const products = [
         brand: "Apple",
         location: "Việt nam",
         quantity: "89",
+        version: ["512", "256", "128"],
         author: "Hoang Ha Mobile",
         color: ["Gold", "Trắng", "Đen nhám"],
         authorImage:
@@ -468,6 +480,7 @@ const products = [
         brand: "Apple",
         location: "Việt nam",
         quantity: "198",
+        version: ["512", "256", "128"],
         author: "One Mobile",
         color: ["Gold", "Trắng", "Đen nhám"],
         authorImage:
@@ -506,6 +519,7 @@ const products = [
         brand: "Apple",
         location: "Việt nam",
         quantity: "106",
+        version: ["1T", "512", "256", "128"],
         author: "Mobile City",
         color: ["Titan - Đen", "Titan - Trắng", "Titan - Sa Mạc"],
         authorImage:
@@ -544,6 +558,7 @@ const products = [
         brand: "Apple",
         location: "Việt nam",
         quantity: "118",
+        version: ["1T", "512", "256", "128"],
         author: "Ha Com",
         color: ["Titan - Đen", "Titan - Trắng", "Titan - Sa Mạc"],
         authorImage:
@@ -582,6 +597,7 @@ const products = [
         brand: "Apple",
         location: "Việt nam",
         quantity: "89",
+        version: ["1T", "512", "256", "128"],
         author: "Hoang Ha Mobile",
         color: ["Titan - Đen", "Titan - Trắng", "Titan - Sa Mạc"],
         authorImage:
@@ -621,6 +637,7 @@ const products = [
         brand: "Apple",
         location: "Việt nam",
         quantity: "220",
+        version: ["1T", "512", "256", "128"],
         author: "Hoang Soi Store",
         color: ["Titan - Đen", "Titan - Trắng", "Titan - Sa Mạc"],
         authorImage:
@@ -659,6 +676,7 @@ const products = [
         brand: "Apple",
         location: "Việt nam",
         quantity: "260",
+        version: ["1T", "512", "256", "128"],
         author: "Tran Doan Store",
         color: ["Titan - Đen", "Titan - Trắng", "Titan - Sa Mạc"],
         authorImage:
@@ -697,6 +715,7 @@ const products = [
         brand: "Apple",
         location: "Việt nam",
         quantity: "198",
+        version: ["1T", "512", "256", "128"],
         author: "One Mobile",
         color: ["Titan - Đen", "Titan - Trắng", "Titan - Sa Mạc"],
         authorImage:
@@ -735,6 +754,7 @@ const products = [
         brand: "Apple",
         location: "Việt nam",
         quantity: "106",
+        version: ["512", "256", "128"],
         author: "Mobile City",
         color: ["Titan - Đen", "Titan - Trắng", "Titan - Sa Mạc"],
         authorImage:
@@ -773,6 +793,7 @@ const products = [
         brand: "Apple",
         location: "Việt nam",
         quantity: "118",
+        version: ["512", "256", "128"],
         author: "Ha Com",
         color: ["Titan - Đen", "Titan - Trắng", "Titan - Sa Mạc"],
         authorImage:
@@ -811,6 +832,7 @@ const products = [
         brand: "Apple",
         location: "Việt nam",
         quantity: "198",
+        version: ["1T", "512", "256", "128"],
         author: "The Gioi Di Dong",
         color: ["Titan - Đen", "Titan - Trắng", "Titan - Sa Mạc"],
         authorImage:
@@ -849,6 +871,7 @@ const products = [
         brand: "Apple",
         location: "Việt nam",
         quantity: "89",
+        version: ["512", "256", "128"],
         author: "Ha My Store",
         color: ["Gold", "Trắng", "Đen nhám"],
         authorImage:
@@ -887,6 +910,7 @@ const products = [
         brand: "Apple",
         location: "Việt nam",
         quantity: "198",
+        version: ["512", "256", "128"],
         author: "The Gioi Di Dong",
         color: ["Gold", "Trắng", "Đen nhám"],
         authorImage:
@@ -925,6 +949,7 @@ const products = [
         brand: "Apple",
         location: "Việt nam",
         quantity: "130",
+        version: ["512", "256", "128"],
         author: "Quanh Dev Store",
         color: ["Gold", "Trắng", "Đen nhám"],
         authorImage:
