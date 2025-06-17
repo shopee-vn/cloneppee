@@ -38,11 +38,10 @@ const products = [
             },
         ],
     },
-
     {
         id: 2,
         name: "Điện thoại Apple iPhone 16 Chính Hãng VN/A",
-        price: "23.190.000",
+        price: "22.190.000",
         oldPrice: "25.190.000",
         shipPrice: "16.875",
         image: "https://res.cloudinary.com/dlpgjjkfj/image/upload/v1749141120/iphone-16-2_ecspiq.webp",
@@ -72,6 +71,45 @@ const products = [
             },
             {
                 image: "https://res.cloudinary.com/dlpgjjkfj/image/upload/v1749141121/iphone-16-4_hoyd4a.webp",
+            },
+            {
+                image: "https://res.cloudinary.com/dlpgjjkfj/image/upload/v1749141122/iphone-16-5_cpdzpi.webp",
+            },
+        ],
+    },
+    {
+        id: 100,
+        name: "Điện thoại Apple iPhone 16 Plus Chính Hãng VN/A",
+        price: "23.590.000",
+        oldPrice: "26.190.000",
+        shipPrice: "16.875",
+        image: "https://res.cloudinary.com/dlpgjjkfj/image/upload/v1749952714/plus-1_ye8s9r.webp",
+        sold: "5,9",
+        discount: "-36%",
+        brand: "Apple",
+        location: "Việt nam",
+        quantity: "220",
+        version: ["1T", "512", "256", "128"],
+        author: "Hoang Soi Store",
+        color: ["Đen", "Trắng", "Hồng"],
+        authorImage:
+            "https://res.cloudinary.com/dlpgjjkfj/image/upload/v1748363511/2_b8tor0.png",
+        rating: "4.9",
+        spayLater: "8.000",
+        description:
+            "iPhone 16 plus. Sở hữu thiết kế titan tuyệt đẹp. Điều Khiển Camera. 4K Dolby Vision tốc độ 120 fps. Và chip A18 Pro. - THIẾT KẾ TITAN TUYỆT ĐẸP – iPhone 16 Pro Max có thiết kế titan nhẹ và cứng cáp với màn hình Super Retina XDR 6,9 inch lớn hơn. Thiết bị bền bỉ tuyệt vời với chất liệu Ceramic Shield thế hệ mới nhất, bền chắc gấp 2 lần mặt kính các điện thoại thông minh khác - NẮM TOÀN QUYỀN ĐIỀU KHIỂN CAMERA – Điều Khiển Camera giúp bạn truy cập nhanh các công cụ camera dễ dàng hơn, như thu phóng hoặc độ sâu trường ảnh, nhờ vậy bạn có thể chụp ảnh hoàn hảo siêu nhanh",
+        imageList: [
+            {
+                image: "https://res.cloudinary.com/dlpgjjkfj/image/upload/v1749952714/plus-1_ye8s9r.webp",
+            },
+            {
+                image: "https://res.cloudinary.com/dlpgjjkfj/image/upload/v1749952714/plus-1_ye8s9r.webp",
+            },
+            {
+                image: "https://res.cloudinary.com/dlpgjjkfj/image/upload/v1749952715/plus-3_fo6wgd.webp",
+            },
+            {
+                image: "https://res.cloudinary.com/dlpgjjkfj/image/upload/v1749952714/plus-5_xkgald.webp",
             },
             {
                 image: "https://res.cloudinary.com/dlpgjjkfj/image/upload/v1749141122/iphone-16-5_cpdzpi.webp",
@@ -157,6 +195,45 @@ const products = [
         ],
     },
     {
+        id: 101,
+        name: "Điện thoại Apple iPhone 15 Plus Chính Hãng VN/A",
+        price: "20.690.000",
+        oldPrice: "26.999.000",
+        shipPrice: "14.900",
+        image: "https://res.cloudinary.com/dlpgjjkfj/image/upload/v1749141609/iphone-15-3_hsqpq6.webp",
+        sold: "9,3",
+        discount: "-10%",
+        brand: "Apple",
+        location: "Việt nam",
+        quantity: "198",
+        version: ["1T", "512", "256", "128"],
+        author: "One Mobile",
+        color: ["Đen", "Hồng", "Xanh Dương"],
+        authorImage:
+            "https://res.cloudinary.com/dlpgjjkfj/image/upload/v1748363511/2_b8tor0.png",
+        rating: "4.8",
+        spayLater: "1.200.000",
+        description:
+            "iPhone 15 plus. Sở hữu thiết kế titan tuyệt đẹp. Điều Khiển Camera. 4K Dolby Vision tốc độ 120 fps. Và chip A18 Pro. - THIẾT KẾ TITAN TUYỆT ĐẸP – iPhone 16 Pro Max có thiết kế titan nhẹ và cứng cáp với màn hình Super Retina XDR 6,9 inch lớn hơn. Thiết bị bền bỉ tuyệt vời với chất liệu Ceramic Shield thế hệ mới nhất, bền chắc gấp 2 lần mặt kính các điện thoại thông minh khác - NẮM TOÀN QUYỀN ĐIỀU KHIỂN CAMERA – Điều Khiển Camera giúp bạn truy cập nhanh các công cụ camera dễ dàng hơn, như thu phóng hoặc độ sâu trường ảnh, nhờ vậy bạn có thể chụp ảnh hoàn hảo siêu nhanh",
+        imageList: [
+            {
+                image: "https://res.cloudinary.com/dlpgjjkfj/image/upload/v1749141609/iphone-15-3_hsqpq6.webp",
+            },
+            {
+                image: "https://res.cloudinary.com/dlpgjjkfj/image/upload/v1749141608/iphone-15-2_qcgr11.webp",
+            },
+            {
+                image: "https://res.cloudinary.com/dlpgjjkfj/image/upload/v1749141609/iphone-15-3_hsqpq6.webp",
+            },
+            {
+                image: "https://res.cloudinary.com/dlpgjjkfj/image/upload/v1749141610/iphone-15-4_wuzl87.webp",
+            },
+            {
+                image: "https://res.cloudinary.com/dlpgjjkfj/image/upload/v1749141611/iphone-15-5_qwjdla.webp",
+            },
+        ],
+    },
+    {
         id: 5,
         name: "Điện thoại Apple iPhone 14 promax Chính Hãng VN/A",
         price: "25.590.000",
@@ -219,6 +296,45 @@ const products = [
         imageList: [
             {
                 image: "https://res.cloudinary.com/dlpgjjkfj/image/upload/v1749161568/iphone-14-2_bb6gxg.webp",
+            },
+            {
+                image: "https://res.cloudinary.com/dlpgjjkfj/image/upload/v1749161568/iphone-14-1_vzmyj5.webp",
+            },
+            {
+                image: "https://res.cloudinary.com/dlpgjjkfj/image/upload/v1749161568/iphone-14-4_pty1rl.webp",
+            },
+            {
+                image: "https://res.cloudinary.com/dlpgjjkfj/image/upload/v1749161568/iphone-14-5_t9c2lg.webp",
+            },
+            {
+                image: "https://res.cloudinary.com/dlpgjjkfj/image/upload/v1749161568/iphone-14-3_ywpo7a.webp",
+            },
+        ],
+    },
+    {
+        id: 102,
+        name: "Điện thoại Apple iPhone 14 Plus Chính Hãng VN/A",
+        price: "19.940.000",
+        oldPrice: "27.999.000",
+        shipPrice: "32.684",
+        image: "https://res.cloudinary.com/dlpgjjkfj/image/upload/v1749953277/plus-1_oxkhwk.webp",
+        sold: "3,3",
+        discount: "-10%",
+        brand: "Apple",
+        location: "Việt nam",
+        quantity: "118",
+        version: ["512", "256", "128"],
+        author: "Ha Com",
+        color: ["Red", "Blue", "Purple"],
+        authorImage:
+            "https://res.cloudinary.com/dlpgjjkfj/image/upload/v1748363511/1_dheely.png",
+        rating: "4.9",
+        spayLater: "1.200.000",
+        description:
+            "iPhone 14 plus. Sở hữu thiết kế tuyệt đẹp. Điều Khiển Camera. 4K Dolby Vision tốc độ 120 fps. Và chip A18 Pro. - THIẾT KẾ TITAN TUYỆT ĐẸP – iPhone 16 Pro Max có thiết kế titan nhẹ và cứng cáp với màn hình Super Retina XDR 6,9 inch lớn hơn. Thiết bị bền bỉ tuyệt vời với chất liệu Ceramic Shield thế hệ mới nhất, bền chắc gấp 2 lần mặt kính các điện thoại thông minh khác - NẮM TOÀN QUYỀN ĐIỀU KHIỂN CAMERA – Điều Khiển Camera giúp bạn truy cập nhanh các công cụ camera dễ dàng hơn, như thu phóng hoặc độ sâu trường ảnh, nhờ vậy bạn có thể chụp ảnh hoàn hảo siêu nhanh",
+        imageList: [
+            {
+                image: "https://res.cloudinary.com/dlpgjjkfj/image/upload/v1749953277/plus-1_oxkhwk.webp",
             },
             {
                 image: "https://res.cloudinary.com/dlpgjjkfj/image/upload/v1749161568/iphone-14-1_vzmyj5.webp",

@@ -216,12 +216,13 @@ function Header() {
                         </li>
                         <li className="navbar__item navbar__item--hoverable navbar__item--slide-down">
                             <img
-                                src="https://res.cloudinary.com/dlpgjjkfj/image/upload/v1749008641/user-avatar_knjotn.jpg"
+                                src="https://res.cloudinary.com/dlpgjjkfj/image/upload/v1749865129/avt_qix7kw.webp"
+                                // src="https://res.cloudinary.com/dlpgjjkfj/image/upload/v1749008641/user-avatar_knjotn.jpg"
                                 alt=""
                                 className="navbar__item-user-img"
                             />
                             <span className="navbar__item-content font-normal">
-                                DTC-Mobile-Shop
+                                ShopDunk Official Store
                             </span>
                             <ul className="user__menu">
                                 <li className="user__item">
