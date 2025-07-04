@@ -23,6 +23,7 @@ const voucherSale = {
     superdealh: 95,
     superdeali: 98,
     superdealk: 97,
+    superdeall: 96,
 
     discounta: 60,
     discountb: 70,
@@ -33,6 +34,7 @@ const voucherSale = {
     discounth: 95,
     discounti: 98,
     discountk: 97,
+    discountl: 96,
 
     bigsalea: 60,
     bigsaleb: 70,
@@ -43,6 +45,7 @@ const voucherSale = {
     bigsaleh: 95,
     bigsalei: 98,
     bigsalek: 97,
+    bigsalel: 96,
 
     flashsalea: 60,
     flashsaleb: 70,
@@ -53,6 +56,7 @@ const voucherSale = {
     flashsaleh: 95,
     flashsalei: 98,
     flashsalek: 97,
+    flashsalel: 96,
 
     vouchera: 60,
     voucherb: 70,
@@ -63,6 +67,7 @@ const voucherSale = {
     voucherh: 95,
     voucheri: 98,
     voucherk: 97,
+    voucherl: 96,
 
     savea: 60,
     saveb: 70,
@@ -73,6 +78,7 @@ const voucherSale = {
     saveh: 95,
     saveih: 98,
     saveik: 97,
+    saveil: 96,
 };
 const voucherData = [
     {
